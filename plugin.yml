@@ -1,0 +1,13 @@
+main: si.f5.mirageserver.Main
+name: ToggleGamemode
+version: 1.0
+author: _mIrAgEdayo_
+
+commands:
+  togglegm:
+    permission: mirage.togglegm
+    permission-message: You don't have permission to execute.
+    
+permissions:
+  mirage.togglegm:
+    default: op
